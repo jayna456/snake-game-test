@@ -1,0 +1,47 @@
+.App {
+  margin: auto;
+  padding: auto;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+.row {
+  background-color: black;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  height: auto;
+}
+
+.diamond {
+  background-color: blue;
+}
+
+.sneak {
+  background-color: red;
+}
+
+.player {
+  background-color: green;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
